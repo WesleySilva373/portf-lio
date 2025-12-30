@@ -285,10 +285,9 @@ body {
 
 @media (max-width: 768px) {
   .hero {
-        flex-direction: column;
-        margin-right: 0;
-        padding: 2rem 1rem;
-        align-items: center;
+         flex-direction: column;
+    align-items: center;
+    text-align: center;
     }
 
     .hero img {
@@ -296,6 +295,19 @@ body {
         margin: 0 auto;
         padding: 2rem 0;
     }
+     .hero-text {
+    order: 1;
+  }
+   .container {
+    order: 2;
+    padding: 0; /* remove o padding gigante */
+  }
+  .perfil {
+  width: 180px;
+    height: 180px;
+    max-width: 100%;
+}
+
 
     .section {
         padding: 2rem;
@@ -375,7 +387,9 @@ body {
     }
 
     .perfil {
-         max-width: 300px;
+        width: 180px;
+    height: 180px;
+    max-width: 100%;
     }
 }
 
