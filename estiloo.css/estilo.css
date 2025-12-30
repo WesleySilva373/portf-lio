@@ -303,8 +303,8 @@ body {
     padding: 0; /* remove o padding gigante */
   }
   .perfil {
-  width: 180px;
-    height: 180px;
+  width: 200px;
+    height: 200px;
     max-width: 100%;
 }
 
