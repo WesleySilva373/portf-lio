@@ -10,6 +10,8 @@ body {
     background: linear-gradient(to bottom left, black, #404041, #0c0c0c, #000000, #2c2b2b, #171718, black) no-repeat;
     background-size: 300%;
     animation: backgroundAnimation 5s ease infinite;
+        overflow-x: hidden;
+
 }
 
 @keyframes backgroundAnimation {
@@ -354,6 +356,27 @@ body {
 
     .contact {
         padding: 2rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .perfil {
+        width: 18rem;
+        height: 18rem;
+        margin: 0 auto;
     }
 }
 
