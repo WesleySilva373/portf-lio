@@ -337,6 +337,13 @@ body {
    
 }
 
+  .skill {
+        width: 32;
+        height: auto;
+        padding: 0.5rem;
+    }
+    
+
 
 
 .nav {
@@ -378,8 +385,9 @@ body {
 }
 
 .skill {
-    width: 80px;
-    height: 80px;
+    width: auto;
+        height: auto;
+        padding: 0.5rem;
 }
 
 .nav {
@@ -440,10 +448,18 @@ body {
         height: 360px;
     }
 
-    .skill{
-       width: 100px;
-       height: 100px;
-    }
+   .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+
+.skills-grid img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
 
 
 }
